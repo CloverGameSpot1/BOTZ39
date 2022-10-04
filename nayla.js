@@ -29,7 +29,7 @@ const exif = new Exif()
 moment.tz.setDefault("Asia/Jakarta").locale("id");
 module.exports = async(nayla, nay, m, setting, store) => {
 try {
-let { ownerNumber, namabot, namaowner } = setting
+let { 085158121779, CloverBotz, Clover } = setting
 const { menubot } = require('./admin/help')
 
 const { type, quotednay, mentioned, now, fromMe } = nay
@@ -218,8 +218,8 @@ break
 
 case 'owner':
 if (cekUser("id", sender) == null) return reply("Kamu belum terdaftar di database bot, Silahkan daftar terlebih dahulu, gunakan command #daftar")
-let [x2] = ownerNumber
-reply("https://wa.me/" + x2.split("@")[0])
+let [x2] = 085158121779
+reply("https://wa.me/6285158121779" + x2.split("@")[0])
 break
 
 case 'waifu':case 'lick':case 'kiss':case 'awoo':case 'hug':case 'cry':case 'cuddle':case 'bully':case 'megumin':case 'shinobu':case 'neko':case 'slap':case 'wink':case 'dance':case 'poke':case 'glomp':case 'bite':case 'nom':case 'handhold':case 'highfive':case 'wave':case 'smile':case 'yeet':case 'bonk':case 'smug':case 'pat':
